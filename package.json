@@ -5,11 +5,11 @@
     "ng": "ng",
     "start": "node server.js",
     "start:dev": "ng serve --c=dev",
-    "build:prod": "ng build --c=prod",
+    "build:prod": "ng build --c=production",
     "build:dev": "ng build --c=dev",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng build --c=prod"
+    "heroku-postbuild": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
